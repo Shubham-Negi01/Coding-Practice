@@ -5,10 +5,20 @@ import java.util.List;
 
 public class Youtuber {
 
+    private String name;
     private List<Subscriber> subscribers;
 
-    public Youtuber() {
+    public Youtuber(String name) {
+        this.name = name;
         this.subscribers = new ArrayList<>();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public List<Subscriber> getSubscribers() {
+        return subscribers;
     }
 
     public void subscribe(Subscriber subscriber) {

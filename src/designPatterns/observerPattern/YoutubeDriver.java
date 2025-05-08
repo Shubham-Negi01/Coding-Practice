@@ -3,9 +3,9 @@ package designPatterns.observerPattern;
 public class YoutubeDriver {
 
     public static void main(String[] args) {
-        Youtuber youtuber = new Youtuber();
-        GoogleSubscriber subscriber1 = new GoogleSubscriber();
-        FacebookSubscriber subscriber2 = new FacebookSubscriber();
+        Youtuber youtuber = new Youtuber("Ne0_4Life");
+        GoogleSubscriber subscriber1 = new GoogleSubscriber(youtuber);
+        FacebookSubscriber subscriber2 = new FacebookSubscriber(youtuber);
 
         youtuber.subscribe(subscriber1);
         youtuber.notifySubscribers();
