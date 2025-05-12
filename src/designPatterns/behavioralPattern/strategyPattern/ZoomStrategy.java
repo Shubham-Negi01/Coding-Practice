@@ -1,4 +1,4 @@
-package designPatterns.strategyPattern;
+package designPatterns.behavioralPattern.strategyPattern;
 
 public class ZoomStrategy implements MeetingStrategy{
     @Override

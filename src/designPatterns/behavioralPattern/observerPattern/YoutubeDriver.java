@@ -1,4 +1,4 @@
-package designPatterns.observerPattern;
+package designPatterns.behavioralPattern.observerPattern;
 
 public class YoutubeDriver {
 
