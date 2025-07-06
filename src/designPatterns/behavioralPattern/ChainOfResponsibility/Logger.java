@@ -1,6 +1,6 @@
 package designPatterns.behavioralPattern.ChainOfResponsibility;
 
-public class Logger {
+public abstract class Logger {
 
     Logger nextLogger;
 
